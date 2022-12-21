@@ -9,7 +9,7 @@ body {
 header {
   display: block;
   background-color: #666;
-  padding: 2%;
+  padding: 1vh;
   font-size: 1em;
   color: white;
   position: relative;
@@ -19,7 +19,6 @@ header {
 nav {
   text-align: center;
   background: #ccc;
-  padding: 1em;
 }
 
 nav::after{
@@ -34,14 +33,13 @@ nav > figure{
 
 nav > ul {
   list-style: none;
-  padding: 0;
+  padding: 1em;
   float: right;
 }
 
 nav > ul > li{
   margin: 0 2rem;
   float: left;
-
 }
 
 main{
@@ -56,10 +54,10 @@ main > section:first-child{
   width: 80%;
 }
 
-article {
+.article-small, .article-center{
   display: inline-block;
   float: left;
-  padding: 0;
+  padding: 1rem;
 }
 
 .article-small{
@@ -70,9 +68,10 @@ article {
   width: 80%;
 }
 
-aside{
+#ad-sidebar{
   float: right;
   width: 20%;
+  padding: 1rem;
 }
 
 main::after {
@@ -83,7 +82,7 @@ main::after {
 
 footer {
   background-color: #777;
-  padding: 10px;
+  padding: 5vH;
   text-align: center;
   color: white;
 }
